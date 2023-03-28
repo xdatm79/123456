@@ -1,0 +1,81 @@
+:root{
+    --mycolor01:#d3b7d8;
+    --mycolor02:#a13e97;
+    --mycolor03:#632a7e;
+    --mycolor04:#280e3b;
+    --mycolor05:#57233a;
+    --mycolor06:#eac9a0;
+    --mycolor07:#dab2d3;
+    --mycolor08:#9edae3;
+    --mycolor09:#65c4d8;
+    --mycolor10:#84c0e9;
+    --mycolor11:#f500fd;
+    --mycolor12:#fad2fc;
+    --mycolor13:#a308ac;
+    --mycolor14:#f5d9f7f5;
+    --mycolor15:rgba(255, 255, 255, 0.938);
+}
+.box01{
+    height: 180px;
+    border: 5px solid var(--mycolor02);
+    background-color:var(--mycolor01);
+    text-align: center;
+    line-height: 180px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--mycolor03);
+}
+.box02{
+    height: 140px;
+    border: 5px solid var(--mycolor01);
+    background-color:var(--mycolor09);
+    text-align: center;
+    line-height: 140px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--mycolor11);
+}
+.box03{
+    background-color: var(--mycolor01);
+    padding: 10px;
+}
+.box03:hover{
+    background-color: var(--mycolor14);
+    padding: 10px;
+    border: 5px solid var(--mycolor05);    
+}
+.box04{
+    height: 280px;
+    border: 5px solid var(--mycolor02);
+    background-color:var(--mycolor01);
+    text-align: center;
+    font-weight: bolder;
+    color: var(--mycolor03);
+    border-radius: 5%;
+}
+.mybtn01{
+    display: block;
+    background-color:var(--mycolor07);
+    border: 2px solid var(--mycolor02);
+    border-radius: 10px;    
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: var(--mycolor05);
+    text-decoration: none;    
+}
+.mybtn01:hover{
+    color: var(--mycolor11);  
+    background-color:var(--mycolor12); 
+}
+@font-face {
+    font-family: 'ChenYuluoyan-Thin-Monospaced';
+    src: url('../fonts/ChenYuluoyan-Thin-Monospaced.woff') format("woff"),
+           url('../fonts/ChenYuluoyan-Thin-Monospaced.ttf') format("truetype"),
+           url('../fonts/ChenYuluoyan-Thin-Monospaced.eot') format("embedded-opentype");
+  }
+
+  .bg-cover{
+    background-size: cover;
+    background-position: center center;
+  }
