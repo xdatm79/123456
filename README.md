@@ -6,4 +6,4 @@
 <li>3.刪除</li>
 </ul>
 <h2>語法說明</h2>
-<img src=" https://fakeimg.pl/300x200/200">" alt="">
+<img src="https://fakeimg.pl/300x200/200">"
